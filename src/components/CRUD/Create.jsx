@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate,Link } from "react-router-dom";
 import axios from "axios";
+import './Create.css';
 
 const Create = () => {
   const [user, setUser] = useState({name: "",email:""});
@@ -19,7 +20,7 @@ const Create = () => {
   };
 
   return (
-    <div>
+    <div className="create-container">
       <h2>Create User</h2>
       <form onSubmit={handleSubmit}style={{ display: "flex", gap: "3px" }}>
         <input

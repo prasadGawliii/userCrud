@@ -9,5 +9,5 @@
 
 .button-container {
     display: flex;
-    gap: 10px; /* Adds space between buttons */
+    gap: 10px; 
 }
